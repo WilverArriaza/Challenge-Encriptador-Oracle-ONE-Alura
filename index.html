@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Challenge Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon">    
+</head>
+<body>
+    <div class="contenedor">
+        <div class="logo">
+            <img class="logoImg" src="img/logo.svg" alt="logo Alura">
+            <h1 class="titulo">ENCRIPTADOR DE MENSAJES</h1>
+        </div>
+        <div class="panelIzquierdo">
+            <input class="text-input" id="text-input" type="text" placeholder="Ingrese el texto aquí">
+        </div>
+        <div class="panelDerecho">
+            <div id="muneco">
+                <img src="img/Muñeco.svg" alt="niño viendo diamante">
+                <h2 id="tituloMuneco">Ningún mensaje fué encontrado.</h2>
+                <p id="textoMuneco">Ingresa un texto que desees encriptar o desencriptar.</p>
+            </div>                       
+            <textarea name="name" id="texto2" cols="30" rows="10"></textarea>
+            <button id="copiar"><img src="img/copia.svg">¡Copiar!</button>
+           
+        </div>
+        <div class="botonera">
+            <p class="info">
+                <img src="img/exclamacion.svg">
+                Solo letras minúsculas, sin acentos y sin caracteres especiales.
+            </p>
+            <button type="button" id="btnEncriptar"><img src="img/candado.svg">Encriptar</button>
+            <button type="button" id="btnDesencriptar"><img src="img/candado-abierto.svg">Desencriptar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+
+</html>
